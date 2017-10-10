@@ -35,7 +35,7 @@ const cfdi = new CFDI({
   'subTotal': '1000',
   'Moneda': 'MXN',
   'total': '1500',
-  'tipoDeComprobante': 'I',
+  'tipoDeComprobante': 'ingreso',
   'formaDePago': 'PAGO EN UNA SOLA EXHIBICION',
   'metodoDePago': 'EFECTIVO',
   'descuento': '0.00',
@@ -119,7 +119,7 @@ cfdi.add(new Retencion({
   'impuesto': 'ISR',
   'importe': '2720'
 }, {}, {
-  'TotalImpuestosRetenidos': '100.50'
+  'totalImpuestosRetenidos': '100.50'
 }))
 
 
@@ -128,7 +128,7 @@ cfdi.add(new Traslado({
   'importe': '2720',
   'tasa': '16.00'
 }, {}, {
-  'TotalImpuestosTrasladados': '100.50'
+  'totalImpuestosTrasladados': '100.50'
 }))
 
 console.log(cfdi.getXml())
