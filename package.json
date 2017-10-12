@@ -1,6 +1,6 @@
 {
   "name": "cfdiv32",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library to create xml (cfdi) v3.2",
   "main": "index.js",
   "repository": {

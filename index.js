@@ -10,6 +10,7 @@ const Domicilio = require('./lib/Node/Domicilio')
 const DomicilioFiscal = require('./lib/Node/DomicilioFiscal')
 const ExpedidoEn = require('./lib/Node/ExpedidoEn')
 const RegimenFiscal = require('./lib/Node/RegimenFiscal')
+const Complemento = require('./lib/Node/Complemento')
 
 module.exports = {
   CFDI,
@@ -21,5 +22,6 @@ module.exports = {
   Domicilio,
   DomicilioFiscal,
   ExpedidoEn,
-  RegimenFiscal
+  RegimenFiscal,
+  Complemento
 };
